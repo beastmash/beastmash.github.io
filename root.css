@@ -1,0 +1,33 @@
+body {
+	font-family: monospace;
+}
+
+button {
+	font-family: monospace;
+	background-color: #242424;
+	color: #FFF;
+	padding: 4px 8px;
+	border-radius: 6px;
+	border: none;
+	border-bottom: 4px solid #000;
+}
+
+button:hover {
+	background-color: #3d3d3d;
+}
+
+button:active {
+	border-bottom: 4px solid #3d3d3d;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+.focused {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
